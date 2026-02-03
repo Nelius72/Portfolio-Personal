@@ -37,7 +37,8 @@ export const projects: Project[] = [
     image: "/projects/portfolio.png",
     link: "/projects/portfolio",
     tech: ["React", "Next.js", "TailwindCSS", "Framer Motion"],
-   
+    gitLink: "https://github.com/Nelius72/Portfolio-Personal",
+    demoLink: "https://portfolio-personal-crb-psi-flame.vercel.app/",
   },
   {
     id: 4,
