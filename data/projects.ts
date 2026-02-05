@@ -26,9 +26,9 @@ export const projects: Project[] = [
     description: "Tracker de cine y series con conexión a API externa y diseño atractivo.",
     image: "/projects/the-hive-network.png",
     link: "/projects/the-hive-network",
-    tech: ["React","JavaScript", "HTML", "CSS", "API externas"],
-    gitLink: "https://github.com/Nelius72/The-Hive-Network",
-    demoLink: "https://the-hive-network.vercel.app",
+    tech: ["React","TypeScript", "Axios", "TailwindCSS", "TMDB API", "API REST"],
+    gitLink: "https://github.com/Nelius72/The-Hive",
+    demoLink: "https://thehivetracker.vercel.app/",
   },
   {
     id: 3,
