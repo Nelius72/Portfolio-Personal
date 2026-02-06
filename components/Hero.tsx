@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import Image from "next/image";
-import perfil from "@/public/perfil.jpeg";
+import perfil from "@/public/Perfil.png";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -69,7 +69,7 @@ export default function Hero() {
           <Image
             src={perfil}
             alt="Cornelio Romero"
-            className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-x-blue-800 border-y-blue-800"
+            className="w-50 h-60  object-cover  shadow-xl border-4 "
             priority
           />
         </motion.div>
