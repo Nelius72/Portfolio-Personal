@@ -8,7 +8,7 @@ const containerVariants = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren: 0.2, // retraso entre tarjetas
+      staggerChildren: 0.2,
     },
   },
 };
@@ -16,8 +16,10 @@ const containerVariants = {
 export default function ProjectsSection() {
   return (
     <section id="projects" className="py-8">
-      <div className="max-w-6xl text-left space-y-8 px-4">
-        <h2 className="text-3xl font-semibold tracking-tight">Mis Proyectos</h2>
+      <div className="max-w-6xl mx-auto text-left space-y-8 px-4">
+        <h2 className="text-3xl font-semibold tracking-tight">
+          Mis Proyectos
+        </h2>
 
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
@@ -32,7 +34,6 @@ export default function ProjectsSection() {
               title={project.title}
               description={project.description}
               image={project.image}
-              link={project.link}
               tech={project.tech}
               gitLink={project.gitLink}
               demoLink={project.demoLink}

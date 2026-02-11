@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import Image from "next/image";
-import perfil from "@/public/perfil.jpeg";
+import perfil from "@/public/Perfil.png";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -47,7 +47,7 @@ export default function Hero() {
 
             <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }}>
               <Link
-                href="https://drive.google.com/file/d/1rFefFmoX6VJUFlJNiss1py1RZXEJwQX1/view?usp=sharing"
+                href="https://drive.google.com/file/d/1o5wnscmZusfK2WaMM6QK_6m7YAcQpTvs/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-slate-600 px-6 py-3 text-sm font-medium text-white hover:bg-slate-500 transition"
@@ -69,7 +69,7 @@ export default function Hero() {
           <Image
             src={perfil}
             alt="Cornelio Romero"
-            className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-x-blue-800 border-y-blue-800"
+            className="w-50 h-60  object-cover  shadow-xl border-4 "
             priority
           />
         </motion.div>
