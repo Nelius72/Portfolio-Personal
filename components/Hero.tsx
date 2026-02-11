@@ -47,7 +47,7 @@ export default function Hero() {
 
             <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }}>
               <Link
-                href="https://drive.google.com/file/d/1c-OLqImwip9orq-lZ-PqabEMZgfcOu7V/view?usp=sharing"
+                href="https://drive.google.com/file/d/1o5wnscmZusfK2WaMM6QK_6m7YAcQpTvs/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-slate-600 px-6 py-3 text-sm font-medium text-white hover:bg-slate-500 transition"
