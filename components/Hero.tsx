@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import Image from "next/image";
-import perfil from "@/public/Perfil.jpeg";
+import perfil from "@/public/perfil.jpeg";
 import { motion } from "framer-motion";
 
 export default function Hero() {
