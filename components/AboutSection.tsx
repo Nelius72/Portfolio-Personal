@@ -12,6 +12,7 @@ import {
   SiLaravel,
   SiMysql,
   SiMongodb,
+  SiVuedotjs,
 } from "react-icons/si";
 import { IconType } from "react-icons";
 
@@ -20,6 +21,7 @@ const skills = [
   "Next.js",
   "Tailwind CSS",
   "TypeScript",
+  "Vue",
   "JavaScript",
   "Angular",
   "PHP",
@@ -33,6 +35,7 @@ const skillData: Record<string, { icon: IconType; bg: string; text: string }> =
     React: { icon: SiReact, bg: "bg-blue-500", text: "text-white" },
     "Next.js": { icon: SiNextdotjs, bg: "bg-black", text: "text-white" },
     "Tailwind CSS": {icon: SiTailwindcss, bg: "bg-teal-500",text: "text-white",},
+    "Vue": {icon: SiVuedotjs, bg: "bg-green-500",text: "text-black",},
     TypeScript: { icon: SiTypescript, bg: "bg-blue-600", text: "text-white" },
     JavaScript: { icon: SiJavascript, bg: "bg-yellow-500", text: "text-black" },
     Angular: { icon: SiAngular, bg: "bg-red-500", text: "text-white" },
