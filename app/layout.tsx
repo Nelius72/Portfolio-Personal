@@ -3,6 +3,7 @@ import {Inter} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -12,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio de Cornelio Romero",
+  title: "Portfolio Cornelio Romero",
   description: "Mi portfolio personal",
 };
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
