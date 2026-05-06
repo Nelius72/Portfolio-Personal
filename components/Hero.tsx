@@ -69,7 +69,7 @@ export default function Hero() {
           <Image
             src={perfil}
             alt="Cornelio Romero"
-            className="w-50 h-60  object-cover  shadow-xl border-4 "
+            className="w-50 h-70  object-cover  shadow-xl border-4 "
             priority
           />
         </motion.div>
